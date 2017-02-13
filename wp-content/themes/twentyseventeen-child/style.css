@@ -1,0 +1,13 @@
+/*
+Theme: TwentySeventeen-Child
+Theme URI: http://;
+Description: Child theme based on the Twenty Seventeen theme from Wordpress.org.
+Author: David Steele
+Version: 1.0
+Template: twentyseventeen
+*/
+@import url('Sites/devtools2steele/wp-content/themes/twentyseventeen/style.css');
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin-ext');
+</style>
