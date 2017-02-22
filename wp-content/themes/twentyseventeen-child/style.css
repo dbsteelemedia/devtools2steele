@@ -8,6 +8,5 @@ Template: twentyseventeen
 */
 @import url('Sites/devtools2steele/wp-content/themes/twentyseventeen/style.css');
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin-ext');
-</style>
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+/*font-family: 'Quattrocento Sans', sans-serif;*\
