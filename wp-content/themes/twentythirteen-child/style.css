@@ -5,9 +5,37 @@
  Author:       David Steele
  Author URI:   http://example.com
  Template:     twentythirteen
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Tags:         light, dark, two-columns, responsive-layout, accessibility-ready
  Text Domain:  twenty-thirteen-child
 */
+
+@import url("/Users/davidsteele/Sites/devtools2steele/wp-content/themes/twentythirteen");
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway:700');
+
+/*This should specify to Wordpress that I only wish to use the sans-serif styles of these fonts*/
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: #000000;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+}
+/*This removes the search feature, which is unnecessary on this site.*/
+.site-header .search-field{
+	display: none;
+}
+
+.entry-thumbnail{
+	display: none;
+}
+
