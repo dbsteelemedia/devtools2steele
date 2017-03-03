@@ -3,15 +3,15 @@
  Theme URI:    http://example.com/twenty-thirteen-child/
  Description:  Twenty Thirteen Child Theme
  Author:       David Steele
- Author URI:   http://example.com
  Template:     twentythirteen
- Version:      1.0.1
+ Version:      1.0.4
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, responsive-layout, accessibility-ready
  Text Domain:  twenty-thirteen-child
 */
 
+/*importing fonts*/
 @import url("/Users/davidsteele/Sites/devtools2steele/wp-content/themes/twentythirteen");
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway:700');
@@ -20,22 +20,48 @@
 
 body{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
-	color: #000000;
+	font-size: 20px;
+	color: #ffffff;
 }
 
 h1{
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
-	color: #000000;
+	font-size: 40px;
+	color: #ffffff;
 	font-weight: bold;
 }
 /*This removes the search feature, which is unnecessary on this site.*/
 .site-header .search-field{
 	display: none;
 }
+/*removes "proudly made with wordpress" text.*/
+.site-info{
+	display:none;
+}
 
 .entry-thumbnail{
 	display: none;
+}
+/*changes the background of the content*/
+#content{
+	background-color: #000000;
+
+}
+
+.sticky {
+	background-color: #39449a;
+
+}
+/*ensures color consistency with the nav bar.*/
+div#navbar.navbar{
+	background-color: lightgrey;
+}
+ul.nav-menu{
+	background-color: lightgrey;
+
+}
+/*should make post titles white*/
+.entry-title a{
+	color: #ffffff;
 }
 
